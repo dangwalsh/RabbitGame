@@ -7,61 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		375A090C166ABDA900E1FDEF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375A090B166ABDA900E1FDEF /* main.cpp */; };
-		375A090E166ABDA900E1FDEF /* RabbitGame.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 375A090D166ABDA900E1FDEF /* RabbitGame.1 */; };
+		37C1B02B16533019006D3590 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C1B02A16533019006D3590 /* main.cpp */; };
+		37C1B03516533056006D3590 /* rabbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C1B03316533056006D3590 /* rabbit.cpp */; };
+		37C1B0381653306C006D3590 /* wolf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C1B0361653306C006D3590 /* wolf.cpp */; };
+		37C1B03B1653307A006D3590 /* terminal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C1B0391653307A006D3590 /* terminal.cpp */; };
+		37C1B03D16533098006D3590 /* term.c in Sources */ = {isa = PBXBuildFile; fileRef = 37C1B03C16533098006D3590 /* term.c */; };
+		37C1B040165330DB006D3590 /* libcurses.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C1B03F165330DB006D3590 /* libcurses.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		375A0905166ABDA900E1FDEF /* CopyFiles */ = {
+		37C1B02416533019006D3590 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				375A090E166ABDA900E1FDEF /* RabbitGame.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		375A0907166ABDA900E1FDEF /* RabbitGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RabbitGame; sourceTree = BUILT_PRODUCTS_DIR; };
-		375A090B166ABDA900E1FDEF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		375A090D166ABDA900E1FDEF /* RabbitGame.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RabbitGame.1; sourceTree = "<group>"; };
+		37C1B02616533019006D3590 /* RabbitGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RabbitGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C1B02A16533019006D3590 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		37C1B03316533056006D3590 /* rabbit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rabbit.cpp; sourceTree = "<group>"; };
+		37C1B03416533056006D3590 /* rabbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rabbit.h; sourceTree = "<group>"; };
+		37C1B0361653306C006D3590 /* wolf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wolf.cpp; sourceTree = "<group>"; };
+		37C1B0371653306C006D3590 /* wolf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolf.h; sourceTree = "<group>"; };
+		37C1B0391653307A006D3590 /* terminal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = terminal.cpp; sourceTree = "<group>"; };
+		37C1B03A1653307A006D3590 /* terminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = terminal.h; sourceTree = "<group>"; };
+		37C1B03C16533098006D3590 /* term.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = term.c; sourceTree = "<group>"; };
+		37C1B03E165330A3006D3590 /* term.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = term.h; sourceTree = "<group>"; };
+		37C1B03F165330DB006D3590 /* libcurses.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurses.dylib; path = usr/lib/libcurses.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		375A0904166ABDA900E1FDEF /* Frameworks */ = {
+		37C1B02316533019006D3590 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C1B040165330DB006D3590 /* libcurses.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		375A08FC166ABDA900E1FDEF = {
+		37C1B01B16533019006D3590 = {
 			isa = PBXGroup;
 			children = (
-				375A090A166ABDA900E1FDEF /* RabbitGame */,
-				375A0908166ABDA900E1FDEF /* Products */,
+				37C1B03F165330DB006D3590 /* libcurses.dylib */,
+				37C1B02916533019006D3590 /* RabbitGame */,
+				37C1B02716533019006D3590 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		375A0908166ABDA900E1FDEF /* Products */ = {
+		37C1B02716533019006D3590 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				375A0907166ABDA900E1FDEF /* RabbitGame */,
+				37C1B02616533019006D3590 /* RabbitGame */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		375A090A166ABDA900E1FDEF /* RabbitGame */ = {
+		37C1B02916533019006D3590 /* RabbitGame */ = {
 			isa = PBXGroup;
 			children = (
-				375A090B166ABDA900E1FDEF /* main.cpp */,
-				375A090D166ABDA900E1FDEF /* RabbitGame.1 */,
+				37C1B02A16533019006D3590 /* main.cpp */,
+				37C1B03316533056006D3590 /* rabbit.cpp */,
+				37C1B03416533056006D3590 /* rabbit.h */,
+				37C1B0361653306C006D3590 /* wolf.cpp */,
+				37C1B0371653306C006D3590 /* wolf.h */,
+				37C1B0391653307A006D3590 /* terminal.cpp */,
+				37C1B03A1653307A006D3590 /* terminal.h */,
+				37C1B03C16533098006D3590 /* term.c */,
+				37C1B03E165330A3006D3590 /* term.h */,
 			);
 			path = RabbitGame;
 			sourceTree = "<group>";
@@ -69,13 +89,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		375A0906166ABDA900E1FDEF /* RabbitGame */ = {
+		37C1B02516533019006D3590 /* RabbitGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 375A0911166ABDA900E1FDEF /* Build configuration list for PBXNativeTarget "RabbitGame" */;
+			buildConfigurationList = 37C1B03016533019006D3590 /* Build configuration list for PBXNativeTarget "RabbitGame" */;
 			buildPhases = (
-				375A0903166ABDA900E1FDEF /* Sources */,
-				375A0904166ABDA900E1FDEF /* Frameworks */,
-				375A0905166ABDA900E1FDEF /* CopyFiles */,
+				37C1B02216533019006D3590 /* Sources */,
+				37C1B02316533019006D3590 /* Frameworks */,
+				37C1B02416533019006D3590 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -83,48 +103,52 @@
 			);
 			name = RabbitGame;
 			productName = RabbitGame;
-			productReference = 375A0907166ABDA900E1FDEF /* RabbitGame */;
+			productReference = 37C1B02616533019006D3590 /* RabbitGame */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		375A08FE166ABDA900E1FDEF /* Project object */ = {
+		37C1B01D16533019006D3590 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Daniel Walsh";
 			};
-			buildConfigurationList = 375A0901166ABDA900E1FDEF /* Build configuration list for PBXProject "RabbitGame" */;
+			buildConfigurationList = 37C1B02016533019006D3590 /* Build configuration list for PBXProject "RabbitGame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 375A08FC166ABDA900E1FDEF;
-			productRefGroup = 375A0908166ABDA900E1FDEF /* Products */;
+			mainGroup = 37C1B01B16533019006D3590;
+			productRefGroup = 37C1B02716533019006D3590 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				375A0906166ABDA900E1FDEF /* RabbitGame */,
+				37C1B02516533019006D3590 /* RabbitGame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		375A0903166ABDA900E1FDEF /* Sources */ = {
+		37C1B02216533019006D3590 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				375A090C166ABDA900E1FDEF /* main.cpp in Sources */,
+				37C1B02B16533019006D3590 /* main.cpp in Sources */,
+				37C1B03516533056006D3590 /* rabbit.cpp in Sources */,
+				37C1B0381653306C006D3590 /* wolf.cpp in Sources */,
+				37C1B03B1653307A006D3590 /* terminal.cpp in Sources */,
+				37C1B03D16533098006D3590 /* term.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		375A090F166ABDA900E1FDEF /* Debug */ = {
+		37C1B02E16533019006D3590 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -153,7 +177,7 @@
 			};
 			name = Debug;
 		};
-		375A0910166ABDA900E1FDEF /* Release */ = {
+		37C1B02F16533019006D3590 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -175,14 +199,14 @@
 			};
 			name = Release;
 		};
-		375A0912166ABDA900E1FDEF /* Debug */ = {
+		37C1B03116533019006D3590 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		375A0913166ABDA900E1FDEF /* Release */ = {
+		37C1B03216533019006D3590 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -192,24 +216,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		375A0901166ABDA900E1FDEF /* Build configuration list for PBXProject "RabbitGame" */ = {
+		37C1B02016533019006D3590 /* Build configuration list for PBXProject "RabbitGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				375A090F166ABDA900E1FDEF /* Debug */,
-				375A0910166ABDA900E1FDEF /* Release */,
+				37C1B02E16533019006D3590 /* Debug */,
+				37C1B02F16533019006D3590 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		375A0911166ABDA900E1FDEF /* Build configuration list for PBXNativeTarget "RabbitGame" */ = {
+		37C1B03016533019006D3590 /* Build configuration list for PBXNativeTarget "RabbitGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				375A0912166ABDA900E1FDEF /* Debug */,
-				375A0913166ABDA900E1FDEF /* Release */,
+				37C1B03116533019006D3590 /* Debug */,
+				37C1B03216533019006D3590 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 375A08FE166ABDA900E1FDEF /* Project object */;
+	rootObject = 37C1B01D16533019006D3590 /* Project object */;
 }
